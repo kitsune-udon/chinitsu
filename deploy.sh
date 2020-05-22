@@ -1,1 +1,1 @@
-elm make src/Main.elm --optimize --output main.js
+rm -rf public && mkdir public && elm make src/Main.elm --optimize --output public/main.js && cp img public/
