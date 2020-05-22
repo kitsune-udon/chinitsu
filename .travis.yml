@@ -1,5 +1,7 @@
 language: elm
 
+before_deploy: bash deploy.sh
+
 deploy:
   provider: pages
   skip_cleanup: true
@@ -7,6 +9,5 @@ deploy:
   keep_history: true
   local_dir: public
   verbose: true
-  script: bash deploy.sh
   on:
     branch: master
