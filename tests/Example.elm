@@ -7,4 +7,4 @@ import Test exposing (..)
 
 suite : Test
 suite =
-    describe "Always Pass Tests" [test "Tort" <| \_ -> True |> Expect.equal True]
+    describe "Always Pass Tests" [ test "Tort" <| \_ -> True |> Expect.equal True ]
