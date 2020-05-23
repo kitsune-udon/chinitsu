@@ -5224,7 +5224,10 @@ var $elm$browser$Browser$document = _Browser_document;
 var $elm$core$Platform$Cmd$batch = _Platform_batch;
 var $elm$core$Platform$Cmd$none = $elm$core$Platform$Cmd$batch(_List_Nil);
 var $author$project$Main$init = function (_v0) {
-	return _Utils_Tuple2(_List_Nil, $elm$core$Platform$Cmd$none);
+	return _Utils_Tuple2(
+		_List_fromArray(
+			[1, 1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 9, 9]),
+		$elm$core$Platform$Cmd$none);
 };
 var $elm$core$Platform$Sub$batch = _Platform_batch;
 var $elm$core$Platform$Sub$none = $elm$core$Platform$Sub$batch(_List_Nil);
